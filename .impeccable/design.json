@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T08:59:00Z",
+  "title": "Design System: Cedophe ZOHOUN / Quiet Systems",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0f0f0f",
+          "#2e2e2e",
+          "#4c4c4c",
+          "#6b6b6b",
+          "#8f8f8f",
+          "#b2b2b2",
+          "#d6d6d6",
+          "#f5f5f5"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "#0d0d11",
+          "#282834",
+          "#424257",
+          "#5d5d79",
+          "#80809e",
+          "#a8a8bd",
+          "#d1d1dc",
+          "#f3f3f6"
+        ]
+      },
+      "surface-strong": {
+        "role": "neutral",
+        "displayName": "Surface Strong",
+        "canonical": "#e8e8ed",
+        "tonalRamp": [
+          "#0d0d12",
+          "#272735",
+          "#414158",
+          "#5b5b7b",
+          "#7e7e9f",
+          "#a7a7be",
+          "#d0d0dc",
+          "#f3f3f6"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "canonical": "#1d1d1f",
+        "tonalRamp": [
+          "#0f0f10",
+          "#2c2c30",
+          "#494950",
+          "#67676f",
+          "#8a8a93",
+          "#afafb6",
+          "#d5d5d8",
+          "#f4f4f5"
+        ]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Text Muted",
+        "canonical": "#6e6e73",
+        "tonalRamp": [
+          "#0f0f10",
+          "#2d2d2f",
+          "#4a4a4f",
+          "#68686e",
+          "#8c8c92",
+          "#b0b0b5",
+          "#d5d5d7",
+          "#f5f5f5"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#d2d2d7",
+        "tonalRamp": [
+          "#0e0e10",
+          "#2b2b31",
+          "#474752",
+          "#646473",
+          "#878797",
+          "#adadb8",
+          "#d3d3d9",
+          "#f4f4f6"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "canonical": "#0071e3",
+        "tonalRamp": [
+          "#000f1f",
+          "#002e5c",
+          "#004c99",
+          "#006bd6",
+          "#1f8eff",
+          "#66b2ff",
+          "#add6ff",
+          "#ebf5ff"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Accent Hover",
+        "canonical": "#0077ed",
+        "tonalRamp": [
+          "#000f1f",
+          "#002e5c",
+          "#004d99",
+          "#006cd6",
+          "#1f8fff",
+          "#66b3ff",
+          "#add6ff",
+          "#ebf5ff"
+        ]
+      },
+      "success": {
+        "role": "tertiary",
+        "displayName": "Success",
+        "canonical": "#1d7a4c",
+        "tonalRamp": [
+          "#041b0f",
+          "#0c502e",
+          "#14854d",
+          "#1cba6c",
+          "#3ce290",
+          "#7aebb3",
+          "#b8f4d7",
+          "#edfcf5"
+        ]
+      },
+      "success-bg": {
+        "role": "tertiary",
+        "displayName": "Success Bg",
+        "canonical": "#e8f5ec",
+        "tonalRamp": [
+          "#08170d",
+          "#184426",
+          "#28713f",
+          "#389e58",
+          "#5ac47a",
+          "#8ed7a5",
+          "#c3e9cf",
+          "#f0faf3"
+        ]
+      },
+      "success-ink": {
+        "role": "tertiary",
+        "displayName": "Success Ink",
+        "canonical": "#1d6b3f",
+        "tonalRamp": [
+          "#051a0e",
+          "#0e4d2a",
+          "#188146",
+          "#21b562",
+          "#42dc85",
+          "#7ee7ac",
+          "#baf2d3",
+          "#eefcf4"
+        ]
+      },
+      "accent-bg": {
+        "role": "primary",
+        "displayName": "Accent Bg",
+        "canonical": "#e8f2fd",
+        "tonalRamp": [
+          "#000f1f",
+          "#002c5c",
+          "#004999",
+          "#0066d6",
+          "#1f89ff",
+          "#66afff",
+          "#add4ff",
+          "#ebf4ff"
+        ]
+      },
+      "accent-ink": {
+        "role": "primary",
+        "displayName": "Accent Ink",
+        "canonical": "#0058b0",
+        "tonalRamp": [
+          "#000f1f",
+          "#002e5c",
+          "#004c99",
+          "#006bd6",
+          "#1f8fff",
+          "#66b2ff",
+          "#add6ff",
+          "#ebf5ff"
+        ]
+      },
+      "warning": {
+        "role": "tertiary",
+        "displayName": "Warning",
+        "canonical": "#7a5a00",
+        "tonalRamp": [
+          "#1f1700",
+          "#5c4400",
+          "#997100",
+          "#d69e00",
+          "#ffc41f",
+          "#ffd766",
+          "#ffeaad",
+          "#fffaeb"
+        ]
+      },
+      "danger": {
+        "role": "secondary",
+        "displayName": "Danger",
+        "canonical": "#c9362b",
+        "tonalRamp": [
+          "#1b0503",
+          "#520f0a",
+          "#881911",
+          "#be2318",
+          "#e64438",
+          "#ee7f77",
+          "#f6bbb6",
+          "#fdeeed"
+        ]
+      },
+      "danger-bg": {
+        "role": "secondary",
+        "displayName": "Danger Bg",
+        "canonical": "#fff2f0",
+        "tonalRamp": [
+          "#1f0400",
+          "#5c0c00",
+          "#991400",
+          "#d61d00",
+          "#ff3d1f",
+          "#ff7a66",
+          "#ffb8ad",
+          "#ffedeb"
+        ]
+      },
+      "danger-line": {
+        "role": "secondary",
+        "displayName": "Danger Line",
+        "canonical": "#ffd4ce",
+        "tonalRamp": [
+          "#1f0400",
+          "#5c0b00",
+          "#991300",
+          "#d61a00",
+          "#ff3a1f",
+          "#ff7966",
+          "#ffb7ad",
+          "#ffedeb"
+        ]
+      },
+      "danger-ink": {
+        "role": "secondary",
+        "displayName": "Danger Ink",
+        "canonical": "#8a1f16",
+        "tonalRamp": [
+          "#1d0402",
+          "#560c06",
+          "#8f140a",
+          "#c81c0e",
+          "#f03c2d",
+          "#f57a70",
+          "#fab8b3",
+          "#feedec"
+        ]
+      },
+      "muted-bg": {
+        "role": "neutral",
+        "displayName": "Muted Bg",
+        "canonical": "#f0f0f2",
+        "tonalRamp": [
+          "#0e0e11",
+          "#2a2a32",
+          "#464653",
+          "#626274",
+          "#858598",
+          "#acacb9",
+          "#d3d3da",
+          "#f4f4f6"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder",
+        "canonical": "#86868b",
+        "tonalRamp": [
+          "#0f0f10",
+          "#2d2d2f",
+          "#4b4b4e",
+          "#68686e",
+          "#8c8c92",
+          "#b1b1b4",
+          "#d5d5d7",
+          "#f5f5f5"
+        ]
+      },
+      "scrollbar": {
+        "role": "neutral",
+        "displayName": "Scrollbar",
+        "canonical": "#b8b8bd",
+        "tonalRamp": [
+          "#0f0f10",
+          "#2c2c30",
+          "#494950",
+          "#666670",
+          "#8a8a94",
+          "#afafb6",
+          "#d4d4d8",
+          "#f4f4f5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The owner's name on the home page."
+      },
+      "page-title": {
+        "displayName": "Page Title",
+        "purpose": "One per inner page at the top of the reading column."
+      },
+      "section-title": {
+        "displayName": "Section Title",
+        "purpose": "Major sections on home and inner pages."
+      },
+      "feature-title": {
+        "displayName": "Feature Title",
+        "purpose": "The selected work feature."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Work-row titles, identity name, and card headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Primary prose and form values."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Summaries, buttons, and dense supporting copy."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Navigation, metadata, field hints, and footer copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Status chips and the smallest metadata."
+      }
+    },
+    "shadows": [
+      {
+        "name": "thumb",
+        "value": "0 1px 2px rgba(0, 0, 0, 0.08)",
+        "purpose": "Only on the language-switch thumb."
+      }
+    ],
+    "motion": [
+      {
+        "name": "rise",
+        "value": "0.7s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Hero entrance; disabled when reduced motion is requested."
+      },
+      {
+        "name": "state",
+        "value": "0.18s ease",
+        "purpose": "Color and small transform changes on controls."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack-feature",
+        "value": "900px"
+      },
+      {
+        "name": "stack-columns",
+        "value": "760px"
+      },
+      {
+        "name": "compact",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Pill-shaped blue action with white text and a 44px minimum height.",
+      "html": "<a class='ds-btn' href='#'>Get in touch <svg class='ds-icon' viewBox='0 0 24 24' fill='none' aria-hidden='true'><path d='M7 17 17 7M9 7h8v8' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:2.75rem;padding:0 1.4rem;border:0;border-radius:999px;background:var(--color-accent,#0071e3);color:#fff;font:inherit;font-size:.9375rem;font-weight:500;line-height:1;text-decoration:none;cursor:pointer;transition:background-color .18s ease,transform .18s ease}.ds-btn:hover{background:var(--color-accent-hover,#0077ed)}.ds-btn:active{transform:scale(.98)}.ds-btn:focus-visible{outline:2px solid var(--color-accent,#0071e3);outline-offset:3px}.ds-icon{width:1em;height:1em;flex:none}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Pill-shaped secondary action with a hairline border and accent text.",
+      "html": "<button class='ds-btn-ghost' type='button'>Send another message</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:2.75rem;padding:0 1.4rem;border:1px solid var(--color-line,#d2d2d7);border-radius:999px;background:transparent;color:var(--color-accent,#0071e3);font:inherit;font-size:.9375rem;font-weight:500;line-height:1;cursor:pointer;transition:background-color .18s ease,transform .18s ease}.ds-btn-ghost:hover{background:var(--color-surface,#f5f5f7)}.ds-btn-ghost:active{transform:scale(.98)}.ds-btn-ghost:focus-visible{outline:2px solid var(--color-accent,#0071e3);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Soft gray field with a 12px radius and an accent focus ring.",
+      "html": "<label class='ds-field'><span class='ds-field-label'>Email</span><input class='ds-input' type='email' placeholder='you@company.com'></label>",
+      "css": ".ds-field{display:grid;gap:.5rem;max-width:40rem;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif}.ds-field-label{font-size:.875rem;font-weight:500}.ds-input{width:100%;padding:.85rem 1rem;border:1px solid var(--color-line,#d2d2d7);border-radius:.75rem;background:var(--color-surface,#f5f5f7);color:var(--color-text,#1d1d1f);font:inherit;font-size:1rem;line-height:1.4}.ds-input::placeholder{color:var(--color-placeholder,#86868b)}.ds-input:focus{outline:none;border-color:var(--color-accent,#0071e3);background:var(--color-canvas,#fff);box-shadow:0 0 0 4px rgba(0,113,227,.12)}"
+    },
+    {
+      "name": "Site Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Frosted sticky header with text links, an active state, and a segmented language switch.",
+      "html": "<div class='ds-nav'><span class='ds-brand'>Cedophe ZOHOUN</span><nav class='ds-links' aria-label='Primary'><a class='ds-link ds-link--active' href='#'>Home</a><a class='ds-link' href='#'>Work</a><a class='ds-link' href='#'>Experience</a><a class='ds-link' href='#'>About</a><a class='ds-link' href='#'>Contact</a><span class='ds-lang'><span class='ds-lang-current'>EN</span><span class='ds-lang-link'>FR</span></span></nav></div>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:0 1.5rem;min-height:3.5rem;border-bottom:1px solid rgba(0,0,0,.08);background:rgba(255,255,255,.82);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif}.ds-brand{font-size:.9375rem;font-weight:600;letter-spacing:-.01em;white-space:nowrap}.ds-links{display:flex;align-items:center;gap:1.75rem;font-size:.8125rem}.ds-link{color:var(--color-text-muted,#6e6e73);text-decoration:none}.ds-link:hover{color:var(--color-text,#1d1d1f)}.ds-link--active{color:var(--color-text,#1d1d1f);font-weight:500}.ds-lang{display:inline-flex;align-items:center;gap:.15rem;padding:.2rem;border-radius:999px;background:var(--color-surface,#f5f5f7);font-size:.75rem;font-weight:500}.ds-lang-current,.ds-lang-link{display:inline-flex;align-items:center;justify-content:center;min-width:1.9rem;height:1.6rem;padding:0 .35rem;border-radius:999px}.ds-lang-current{background:#fff;color:var(--color-text,#1d1d1f);box-shadow:0 1px 2px rgba(0,0,0,.08)}.ds-lang-link{color:var(--color-text-muted,#6e6e73)}"
+    },
+    {
+      "name": "Status Chips",
+      "kind": "chip",
+      "refersTo": "status-complete",
+      "description": "Pill chips whose marker shape and label both encode status.",
+      "html": "<div class='ds-status-set'><span class='ds-status ds-status--complete'><span class='ds-dot' aria-hidden='true'></span>Complete</span><span class='ds-status ds-status--operational'><span class='ds-dot' aria-hidden='true'></span>Operational</span><span class='ds-status ds-status--ongoing'><span class='ds-dot' aria-hidden='true'></span>Ongoing</span><span class='ds-status ds-status--pending'><span class='ds-dot' aria-hidden='true'></span>Pending</span></div>",
+      "css": ".ds-status-set{display:flex;flex-wrap:wrap;gap:.5rem;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif}.ds-status{display:inline-flex;align-items:center;gap:.4rem;padding:.3rem .6rem;border-radius:999px;background:var(--color-surface,#f5f5f7);color:var(--color-text-muted,#6e6e73);font-size:.75rem;font-weight:500;line-height:1;white-space:nowrap}.ds-dot{width:.5rem;height:.5rem;border:1px solid currentColor;border-radius:50%}.ds-status--complete{background:var(--color-success-bg,#e8f5ec);color:var(--color-success-ink,#1d6b3f)}.ds-status--complete .ds-dot{background:currentColor}.ds-status--operational{background:var(--color-accent-bg,#e8f2fd);color:var(--color-accent-ink,#0058b0)}.ds-status--operational .ds-dot{border-radius:2px;background:currentColor}.ds-status--ongoing{background:var(--color-accent-bg,#e8f2fd);color:var(--color-accent-ink,#0058b0)}.ds-status--ongoing .ds-dot{background:linear-gradient(90deg,currentColor 50%,transparent 50%)}.ds-status--pending{background:var(--color-muted-bg,#f0f0f2);color:var(--color-text-muted,#6e6e73)}.ds-status--pending .ds-dot{border-width:1.5px;background:transparent}"
+    },
+    {
+      "name": "Filter Chips",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Pill toggles with counts; the selected chip inverts to near-black.",
+      "html": "<div class='ds-filter-bar' role='group' aria-label='Filter by domain'><button class='ds-filter ds-filter--on' type='button' aria-pressed='true'>All<span class='ds-filter-count'>7</span></button><button class='ds-filter' type='button' aria-pressed='false'>Security<span class='ds-filter-count'>3</span></button></div>",
+      "css": ".ds-filter-bar{display:flex;flex-wrap:wrap;gap:.5rem;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif}.ds-filter{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem .9rem;border:0;border-radius:999px;background:var(--color-surface,#f5f5f7);color:var(--color-text,#1d1d1f);font:inherit;font-size:.8125rem;cursor:pointer;transition:background-color .18s ease,color .18s ease}.ds-filter:hover{background:var(--color-surface-strong,#e8e8ed)}.ds-filter--on{background:var(--color-text,#1d1d1f);color:#fff}.ds-filter-count{opacity:.6;font-size:.75rem}.ds-filter:focus-visible{outline:2px solid var(--color-accent,#0071e3);outline-offset:3px}"
+    },
+    {
+      "name": "Work Row",
+      "kind": "card",
+      "refersTo": "lab-row",
+      "description": "Ruled list row with an index, title, summary, domain, status, and arrow.",
+      "html": "<a class='ds-row' href='#'><span class='ds-row-index'>02</span><span class='ds-row-body'><span class='ds-row-title'>Multi-site FortiGate operations across 16+ branches</span><span class='ds-row-summary'>Administered FortiGate firewalls and site connectivity for an organization operating 16+ branches.</span><span class='ds-row-meta'><span class='ds-row-domain'>Security</span><span class='ds-status'><span class='ds-dot'></span>Operational</span></span></span><svg class='ds-row-arrow' viewBox='0 0 24 24' fill='none' aria-hidden='true'><path d='M7 17 17 7M9 7h8v8' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg></a>",
+      "css": ".ds-row{display:grid;grid-template-columns:4rem minmax(0,1fr) 1.25rem;gap:1rem;align-items:start;padding:1.5rem 0;border-bottom:1px solid var(--color-line,#d2d2d7);color:var(--color-text,#1d1d1f);text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif}.ds-row-index{padding-top:.25rem;color:var(--color-text-muted,#6e6e73);font-size:.8125rem}.ds-row-body{display:block;min-width:0}.ds-row-title{display:block;font-size:1.25rem;font-weight:600;line-height:1.25;letter-spacing:-.02em}.ds-row-summary{display:block;max-width:60ch;margin-top:.35rem;color:var(--color-text-muted,#6e6e73);font-size:.9375rem;line-height:1.5}.ds-row-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin-top:.6rem}.ds-row-domain{color:var(--color-text-muted,#6e6e73);font-size:.8125rem}.ds-row-arrow{width:1.1rem;height:1.1rem;margin-top:.3rem;color:var(--color-text-muted,#6e6e73);transition:color .18s ease,transform .18s ease}.ds-row:hover .ds-row-arrow{color:var(--color-accent,#0071e3);transform:translate(2px,-2px)}.ds-status{display:inline-flex;align-items:center;gap:.4rem;padding:.3rem .6rem;border-radius:999px;background:var(--color-accent-bg,#e8f2fd);color:var(--color-accent-ink,#0058b0);font-size:.75rem;font-weight:500;line-height:1;white-space:nowrap}.ds-dot{width:.5rem;height:.5rem;border:1px solid currentColor;border-radius:2px;background:currentColor}"
+    },
+    {
+      "name": "Work Feature",
+      "kind": "card",
+      "refersTo": "lab-feature",
+      "description": "Soft gray feature panel with text at left and an illustrative schematic at right.",
+      "html": "<a class='ds-feature' href='#'><span class='ds-feature-body'><span class='ds-feature-meta'><span>01</span><span>Security</span><span class='ds-status'><span class='ds-dot'></span>Shipped</span></span><span class='ds-feature-title'>Next-generation firewall rollout for a 500+ user university</span><span class='ds-feature-summary'>Deployed and configured Palo Alto next-generation firewall controls for a 500+ user university campus in Accra.</span><span class='ds-feature-cta'>View case study ›</span></span><span class='ds-feature-art'><svg viewBox='0 0 320 160' role='img' aria-label='Illustrative network schematic'><path d='M44 80h90M134 80V40h142M134 80v40h142' stroke='#0071e3' stroke-width='2' fill='none'/><circle cx='134' cy='80' r='5' fill='#0071e3'/><rect x='24' y='62' width='60' height='36' rx='8' fill='#fff' stroke='#0071e3'/><rect x='236' y='22' width='60' height='36' rx='8' fill='#fff' stroke='#0071e3'/><rect x='236' y='102' width='60' height='36' rx='8' fill='#fff' stroke='#0071e3'/><text x='54' y='84' text-anchor='middle' font-size='9' fill='#0071e3' font-family='sans-serif'>Edge</text><text x='266' y='44' text-anchor='middle' font-size='9' fill='#0071e3' font-family='sans-serif'>Core</text><text x='266' y='124' text-anchor='middle' font-size='9' fill='#0071e3' font-family='sans-serif'>Cloud</text></svg></span></a>",
+      "css": ".ds-feature{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:2rem;align-items:center;padding:2.5rem;border-radius:1.5rem;background:var(--color-surface,#f5f5f7);color:var(--color-text,#1d1d1f);text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif;transition:background-color .2s ease}.ds-feature:hover{background:var(--color-surface-strong,#e8e8ed)}.ds-feature-body{display:block;min-width:0}.ds-feature-meta{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;color:var(--color-text-muted,#6e6e73);font-size:.8125rem}.ds-feature-title{display:block;margin-top:.8rem;font-size:2rem;font-weight:700;line-height:1.1;letter-spacing:-.035em}.ds-feature-summary{display:block;max-width:46ch;margin-top:.6rem;color:var(--color-text-muted,#6e6e73);font-size:1rem;line-height:1.5}.ds-feature-cta{display:inline-block;margin-top:1.25rem;color:var(--color-accent,#0071e3);font-size:.9375rem;font-weight:500}.ds-feature-art{display:block;padding:1rem;border:1px solid var(--color-line,#d2d2d7);border-radius:1rem;background:#fff}.ds-feature-art svg{display:block;width:100%;height:auto}.ds-status{display:inline-flex;align-items:center;gap:.4rem;padding:.3rem .6rem;border-radius:999px;background:var(--color-success-bg,#e8f5ec);color:var(--color-success-ink,#1d6b3f);font-size:.75rem;font-weight:500;line-height:1;white-space:nowrap}.ds-dot{width:.5rem;height:.5rem;border-radius:50%;background:currentColor}"
+    },
+    {
+      "name": "Training Card",
+      "kind": "card",
+      "refersTo": "training",
+      "description": "Soft gray card pairing program tags with a large accent learner count.",
+      "html": "<div class='ds-training'><div><h3 class='ds-training-title'>Certified Cisco &amp; AWS trainer</h3><p class='ds-training-body'>Delivered CCNA, CCNP ENCOR, and AWS Cloud Practitioner training.</p><ul class='ds-training-tags'><li>CCNA</li><li>CCNP ENCOR</li><li>AWS Cloud Practitioner</li></ul></div><span class='ds-training-count'>50+</span></div>",
+      "css": ".ds-training{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:2rem;border-radius:1rem;background:var(--color-surface,#f5f5f7);color:var(--color-text,#1d1d1f);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif}.ds-training-title{margin:0 0 .35rem;font-size:1.125rem;font-weight:600}.ds-training-body{margin:0;color:var(--color-text-muted,#6e6e73);font-size:.9375rem}.ds-training-tags{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 0;padding:0;list-style:none}.ds-training-tags li{padding:.3rem .65rem;border:1px solid var(--color-line,#d2d2d7);border-radius:999px;background:#fff;font-size:.75rem}.ds-training-count{flex:none;color:var(--color-accent,#0071e3);font-size:3.5rem;font-weight:700;letter-spacing:-.05em;line-height:1}"
+    },
+    {
+      "name": "Secondary Card",
+      "kind": "card",
+      "refersTo": "side-note",
+      "description": "Soft gray note card used below inner-page content for scope, status, and links.",
+      "html": "<div class='ds-note'><span class='ds-note-label'>Scope</span><p class='ds-note-body'>Professional practice only. Client organizations are anonymized; no client names, logos, or invented metrics appear.</p></div>",
+      "css": ".ds-note{padding:1.25rem;border-radius:1rem;background:var(--color-surface,#f5f5f7);color:var(--color-text,#1d1d1f);font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,Helvetica,Arial,sans-serif}.ds-note-label{display:block;margin-bottom:.5rem;font-size:.8125rem;font-weight:600}.ds-note-body{margin:0;color:var(--color-text-muted,#6e6e73);font-size:.875rem;line-height:1.5}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Quiet Systems",
+    "overview": "The portfolio behaves like a well-made product page: a white canvas, one confident type scale, soft gray surfaces, and a single blue action color. The interface recedes so the name, the work, and the credentials lead. Density is low, spacing is generous, and every screen has one obvious next step.\n\nThe system replaces the rejected lab-workbook direction. Paper textures, ruled backgrounds, stamps, tab dividers, objective margins, terminal panels, and the red/green annotation palette are gone. What remains is the evidence: seven case studies, four certifications, two roles, and bilingual delivery.\n\nApple's public product language is the pinned reference: system sans, near-black text on white, a blue accent, rounded cards, frosted navigation, and motion that stays quiet. The interface should feel familiar, fast, and expensive through restraint rather than ornament.",
+    "keyCharacteristics": [
+      "White canvas with soft gray secondary surfaces.",
+      "One blue accent for actions and links.",
+      "System sans typography at every size.",
+      "A single 1060px reading column.",
+      "Soft 12–24px radii and pill controls.",
+      "Frosted sticky navigation with a segmented language switch.",
+      "Status encoded by marker shape plus label.",
+      "No texture, stamps, decorative codes, or content shadows."
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Blue is the only interactive accent. Do not introduce a second brand hue; status tints are semantic, not decorative.",
+        "section": "colors"
+      },
+      {
+        "name": "The Status-Is-Semantic Rule",
+        "body": "Green, blue, amber, and gray only appear inside status chips, availability dots, or form feedback.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Voice Rule",
+        "body": "One system sans family, many weights. Do not add a display face, serif, or monospace family for technical flavor.",
+        "section": "typography"
+      },
+      {
+        "name": "The Measure Rule",
+        "body": "Prose columns stop at 68ch; intros and summaries sit between 36em and 60ch.",
+        "section": "layout"
+      },
+      {
+        "name": "The Single Column Rule",
+        "body": "One reading column. Secondary material flows below the main content as cards, never in a fixed sidebar.",
+        "section": "layout"
+      },
+      {
+        "name": "The Generous Separation Rule",
+        "body": "More space above a heading than below it, and at least one full section gap between unrelated ideas.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Card Rule",
+        "body": "No box-shadow, glow, or gradient lift on content. Change surface tone or add a border instead.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Frosted Header Rule",
+        "body": "Blur belongs to the sticky header and the language-switch thumb only.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Soft Geometry Rule",
+        "body": "Surfaces are rounded, controls are pills, and the monogram is a circle. Do not mix in square cards or hard-edged buttons.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do keep the canvas white and use surface gray for secondary regions.",
+      "Do use one blue accent for actions, links, and schematic strokes.",
+      "Do set every text role in the system sans stack; vary weight and size, not family.",
+      "Do use 16–24px radii on cards, 12px on fields, and pills for controls.",
+      "Do keep prose within 68ch and section spacing generous.",
+      "Do encode status with a marker shape plus a label.",
+      "Do let secondary material flow below the main column as cards.",
+      "Do honor prefers-reduced-motion; the hero rise is the only entrance motion."
+    ],
+    "donts": [
+      "Don’t reintroduce paper textures, ruled backgrounds, stamps, tab dividers, or terminal panels.",
+      "Don’t add an objective margin, fixed sidebar, or coded section labels.",
+      "Don’t add a second accent hue or use status colors as decoration.",
+      "Don’t add content shadows, glows, or gradients.",
+      "Don’t set body copy in a serif or monospace face.",
+      "Don’t use square cards or hard-edged buttons.",
+      "Don’t build a symmetrical card grid where a single column would read better.",
+      "Don’t add Tailwind utility classes to components; extend the semantic classes in app/globals.css."
+    ]
+  }
+}

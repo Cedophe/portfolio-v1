@@ -1,0 +1,592 @@
+{
+  "title": "Choose the visual world",
+  "question": "The owner rejected the rolled Certification Lab Workbook and pinned Apple's public product language: a quiet, product-led editorial system.",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "Quiet Systems",
+      "kicker": "OWNER-PINNED",
+      "lineage": "Apple public product pages and the category-default clean engineering portfolio, executed with restraint",
+      "thesis": "The portfolio as a quiet, well-made product page: the interface recedes so the name, evidence, and one next action lead.",
+      "palette": [
+        "#FFFFFF",
+        "#F5F5F7",
+        "#1D1D1F",
+        "#0071E3"
+      ],
+      "materials": [
+        "system sans",
+        "soft gray cards",
+        "frosted header",
+        "pill controls"
+      ],
+      "viewport": "A frosted header, a left-aligned name hero with one blue action, a single-column selected-work sequence, and soft gray proof cards.",
+      "risk": "Can read as generic if the case-study evidence and bilingual craft are not strong enough to carry the restraint.",
+      "raised": [
+        {
+          "from": "challenger-vu",
+          "raise": "A single at-a-glance status band reads all four certifications and seven case studies as one instrument row."
+        },
+        {
+          "from": "challenger-onebit",
+          "raise": "Completion, in-progress, and pending states are encoded in pattern and label as well as color, so they survive grayscale."
+        },
+        {
+          "from": "challenger-saulbass",
+          "raise": "Each section commits to one dominant idea in hard asymmetry, never a symmetrical card grid."
+        },
+        {
+          "from": "challenger-orizuru",
+          "raise": "Lab steps are discrete, deep-linkable states, each recoverable and replayable."
+        },
+        {
+          "from": "challenger-storm",
+          "raise": "Objective codes and headlines are structural typography, not decoration."
+        }
+      ],
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "frosted nav",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "name hero",
+            "x": 1,
+            "y": 1,
+            "w": 8,
+            "h": 4,
+            "accent": true
+          },
+          {
+            "label": "availability",
+            "x": 9,
+            "y": 1,
+            "w": 3,
+            "h": 2
+          },
+          {
+            "label": "selected work",
+            "x": 1,
+            "y": 5,
+            "w": 10,
+            "h": 4
+          },
+          {
+            "label": "contact / footer",
+            "x": 0,
+            "y": 9,
+            "w": 12,
+            "h": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "model-pick",
+      "kind": "pick",
+      "label": "Network Operations Runbook",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "network operations runbooks, shift handover binders, and change-control packs",
+      "thesis": "The portfolio as an operations runbook: role, systems, and procedures documented for handover.",
+      "palette": [
+        "#F1EDE4",
+        "#1A1A1A",
+        "#2C5F8A",
+        "#D6452F"
+      ],
+      "materials": [
+        "tabbed binder",
+        "punched paper",
+        "stamped revisions",
+        "annotation ink"
+      ],
+      "viewport": "A tabbed binder page with a role summary, a system inventory, and procedure cards indexed down the page.",
+      "risk": "Familiar operations documentation; may read as an internal runbook rather than a personal portfolio.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "header",
+            "x": 0,
+            "y": 0,
+            "w": 10,
+            "h": 2,
+            "accent": true
+          },
+          {
+            "label": "tab rail",
+            "x": 10,
+            "y": 0,
+            "w": 2,
+            "h": 10
+          },
+          {
+            "label": "role summary",
+            "x": 0,
+            "y": 2,
+            "w": 6,
+            "h": 3
+          },
+          {
+            "label": "system inventory",
+            "x": 6,
+            "y": 2,
+            "w": 4,
+            "h": 3
+          },
+          {
+            "label": "procedures",
+            "x": 0,
+            "y": 5,
+            "w": 10,
+            "h": 4
+          },
+          {
+            "label": "contact",
+            "x": 0,
+            "y": 9,
+            "w": 10,
+            "h": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "challenger-metro",
+      "kind": "challenger",
+      "catalogId": "digital-design-canon-metro-typographic-tiles",
+      "verdict": "competitive",
+      "label": "Metro Typographic Map",
+      "lineage": "metro screen systems and network topology maps",
+      "thesis": "The portfolio as a metro map of domains and case studies, each stop a proof point.",
+      "palette": [
+        "#0A0A0A",
+        "#00C2D1",
+        "#FF3EA5",
+        "#B7F000",
+        "#FFFFFF"
+      ],
+      "materials": [
+        "flat color fields",
+        "lowercase display type",
+        "square tiles"
+      ],
+      "viewport": "A panoramic line with stops for certifications and case studies, giant cropped lowercase type leading the pan.",
+      "risk": "Bold and legible, but the color-field system can overpower technical detail.",
+      "case": "Fuses well: network topology and metro maps share nodes, lines, and interchange logic, so audience identification is strong; clarity for a time-pressed recruiter is slightly lower.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "nav",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "giant type",
+            "x": 0,
+            "y": 1,
+            "w": 8,
+            "h": 3,
+            "accent": true
+          },
+          {
+            "label": "metro line",
+            "x": 0,
+            "y": 4,
+            "w": 12,
+            "h": 4
+          },
+          {
+            "label": "tiles",
+            "x": 0,
+            "y": 8,
+            "w": 12,
+            "h": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "challenger-vu",
+      "kind": "challenger",
+      "catalogId": "signals-instruments-vu-meter-bridge",
+      "verdict": "declined",
+      "label": "VU Meter Bridge",
+      "lineage": "analog recording desks and broadcast metering",
+      "thesis": "A row of measured instruments that reads the whole system at a glance.",
+      "palette": [
+        "#F3EAD8",
+        "#111111",
+        "#B23A2B",
+        "#7A5B3A"
+      ],
+      "materials": [
+        "ivory meter faces",
+        "glass",
+        "walnut",
+        "steel"
+      ],
+      "viewport": "A full-width bridge of identical meters, needles leaning in unison, channel labels beneath.",
+      "risk": "Audio metering is not the audience's world; the metaphor would costume the portfolio.",
+      "case": "Fuses poorly: a recording desk does not identify a network and security engineer, even though the measured-state idea is useful.",
+      "kept": "Measured state and at-a-glance aggregation.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "nav",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "meter row",
+            "x": 0,
+            "y": 1,
+            "w": 12,
+            "h": 4,
+            "accent": true
+          },
+          {
+            "label": "channel labels",
+            "x": 0,
+            "y": 5,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "content",
+            "x": 0,
+            "y": 6,
+            "w": 12,
+            "h": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "challenger-onebit",
+      "kind": "challenger",
+      "catalogId": "medium-native-one-bit-desktop",
+      "verdict": "declined",
+      "label": "One-Bit Desktop",
+      "lineage": "early one-bit desktop interfaces",
+      "thesis": "Case studies as overlapping windows on a single desktop plane.",
+      "palette": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "materials": [
+        "one-bit pixels",
+        "ordered dither",
+        "pixel chrome"
+      ],
+      "viewport": "Overlapping windows with title bars, dithered gray fills, and marching-ants selection.",
+      "risk": "Nostalgia for early desktop UI does not identify a network and security engineer.",
+      "case": "Fuses poorly: the desktop metaphor is legible but unrelated to the audience's professional world.",
+      "kept": "Pattern-encoded state that survives grayscale.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "menu bar",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "desktop icons",
+            "x": 0,
+            "y": 1,
+            "w": 1,
+            "h": 8
+          },
+          {
+            "label": "window hero",
+            "x": 1,
+            "y": 1,
+            "w": 7,
+            "h": 5,
+            "accent": true
+          },
+          {
+            "label": "stacked window",
+            "x": 5,
+            "y": 4,
+            "w": 6,
+            "h": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "challenger-saulbass",
+      "kind": "challenger",
+      "catalogId": "posters-covers-sleeves-saul-bass-title",
+      "verdict": "declined",
+      "label": "Cut-Paper Title Sequence",
+      "lineage": "Saul Bass title sequences",
+      "thesis": "The portfolio as a timed sequence of cut-paper cards, one idea per card.",
+      "palette": [
+        "#C84B1E",
+        "#101010",
+        "#F2E8D5"
+      ],
+      "materials": [
+        "cut paper",
+        "flat ink fields",
+        "jittering line"
+      ],
+      "viewport": "Full-bleed color fields with black silhouettes, skinny caps set off baseline, one idea per card.",
+      "risk": "A cinematic sequence delays the recruiter's scan and can feel like style over proof.",
+      "case": "Fuses poorly: the title-sequence rhythm is memorable but fights the fast, factual scan recruiters need.",
+      "kept": "One dominant idea per section with hard asymmetry.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "color field",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 7,
+            "accent": true
+          },
+          {
+            "label": "title card",
+            "x": 1,
+            "y": 2,
+            "w": 8,
+            "h": 3
+          },
+          {
+            "label": "credits",
+            "x": 1,
+            "y": 7,
+            "w": 10,
+            "h": 2
+          },
+          {
+            "label": "nav",
+            "x": 0,
+            "y": 9,
+            "w": 12,
+            "h": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "challenger-orizuru",
+      "kind": "challenger",
+      "catalogId": "paper-folds-pleats-deployable-orizuru-crane-sequence",
+      "verdict": "declined",
+      "label": "Origami Fold Sequence",
+      "lineage": "paper-folding instruction sequences",
+      "thesis": "A single sheet folded through deliberate steps into a finished form.",
+      "palette": [
+        "#C8362B",
+        "#F4E9DA",
+        "#1C1C1C",
+        "#B08D3F"
+      ],
+      "materials": [
+        "vermillion washi",
+        "crease lines",
+        "sumi ink"
+      ],
+      "viewport": "A centered square with numbered folds in the margin, crease pattern paired with a spatial view.",
+      "risk": "The craft is beautiful but the folding metaphor has no professional relevance here.",
+      "case": "Fuses poorly: paper folding does not identify a network and security engineer and adds a learning curve before the proof.",
+      "kept": "Discrete, recoverable step states.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "step numbers",
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 10
+          },
+          {
+            "label": "fold diagram",
+            "x": 1,
+            "y": 1,
+            "w": 6,
+            "h": 6,
+            "accent": true
+          },
+          {
+            "label": "notes",
+            "x": 7,
+            "y": 1,
+            "w": 5,
+            "h": 6
+          },
+          {
+            "label": "sequence strip",
+            "x": 1,
+            "y": 7,
+            "w": 11,
+            "h": 2
+          },
+          {
+            "label": "nav",
+            "x": 0,
+            "y": 9,
+            "w": 12,
+            "h": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "challenger-storm",
+      "kind": "challenger",
+      "catalogId": "dream-surreal-impossible-worlds-alphabet-storm",
+      "verdict": "declined",
+      "label": "Alphabet Storm",
+      "lineage": "surreal typographic landscapes",
+      "thesis": "Letters become weather and reshape the landscape according to grammar.",
+      "palette": [
+        "#F7F5F0",
+        "#101010",
+        "#B8B8B8"
+      ],
+      "materials": [
+        "paper white",
+        "storm-letter black",
+        "silver flash"
+      ],
+      "viewport": "A monumental grotesk breaking into rain and carving words across an open field.",
+      "risk": "The transformation obscures the reading order and turns proof into spectacle.",
+      "case": "Fuses poorly: the audience needs credentials and case studies, not a language experiment.",
+      "kept": "Type as structural matter.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          {
+            "label": "nav",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 1
+          },
+          {
+            "label": "monumental word",
+            "x": 0,
+            "y": 1,
+            "w": 12,
+            "h": 5,
+            "accent": true
+          },
+          {
+            "label": "storm fragments",
+            "x": 0,
+            "y": 6,
+            "w": 12,
+            "h": 3
+          },
+          {
+            "label": "contact",
+            "x": 0,
+            "y": 9,
+            "w": 12,
+            "h": 1
+          }
+        ]
+      }
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "code"
+  },
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "The category standard",
+    "lineage": "the conventional personal engineering portfolio",
+    "thesis": "What this category ships, executed impeccably.",
+    "palette": [
+      "#FFFFFF",
+      "#111827",
+      "#2563EB"
+    ],
+    "materials": [
+      "clean grid",
+      "portrait photography",
+      "neutral cards"
+    ],
+    "viewport": "A portrait and headline hero followed by a row of equal project cards.",
+    "risk": "Indistinguishable from the competition by design.",
+    "wireframe": {
+      "cols": 12,
+      "rows": 10,
+      "regions": [
+        {
+          "label": "nav",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1
+        },
+        {
+          "label": "portrait",
+          "x": 1,
+          "y": 1,
+          "w": 4,
+          "h": 5
+        },
+        {
+          "label": "name and title",
+          "x": 5,
+          "y": 1,
+          "w": 6,
+          "h": 4,
+          "accent": true
+        },
+        {
+          "label": "cards",
+          "x": 0,
+          "y": 6,
+          "w": 12,
+          "h": 3
+        },
+        {
+          "label": "footer",
+          "x": 0,
+          "y": 9,
+          "w": 12,
+          "h": 1
+        }
+      ]
+    }
+  },
+  "steer": true
+}
